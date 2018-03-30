@@ -14,6 +14,8 @@
 		0431FCF8206B89B0000DE0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431FCF6206B89B0000DE0C6 /* LaunchScreen.storyboard */; };
 		0431FD03206B89B0000DE0C6 /* calcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431FD02206B89B0000DE0C6 /* calcTests.swift */; };
 		0431FD0E206B89B0000DE0C6 /* calcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0431FD0D206B89B0000DE0C6 /* calcUITests.swift */; };
+		04B5CDE8206CF73300780F44 /* 321.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04B5CDE7206CF73300780F44 /* 321.jpg */; };
+		04EC0591206B92D600C60F1D /* monofonto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04EC0590206B92D500C60F1D /* monofonto.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0431FD09206B89B0000DE0C6 /* calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0431FD0D206B89B0000DE0C6 /* calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calcUITests.swift; sourceTree = "<group>"; };
 		0431FD0F206B89B0000DE0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B5CDE7206CF73300780F44 /* 321.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 321.jpg; sourceTree = "<group>"; };
+		04EC0590206B92D500C60F1D /* monofonto.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = monofonto.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		0431FCEC206B89B0000DE0C6 /* calc */ = {
 			isa = PBXGroup;
 			children = (
+				04B5CDE7206CF73300780F44 /* 321.jpg */,
+				04EC0590206B92D500C60F1D /* monofonto.ttf */,
 				0431FCED206B89B0000DE0C6 /* AppDelegate.swift */,
 				0431FCEF206B89B0000DE0C6 /* ViewController.swift */,
 				0431FCF1206B89B0000DE0C6 /* Main.storyboard */,
@@ -193,7 +199,7 @@
 				TargetAttributes = {
 					0431FCE9206B89B0000DE0C6 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					0431FCFD206B89B0000DE0C6 = {
 						CreatedOnToolsVersion = 9.2;
@@ -232,8 +238,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04EC0591206B92D600C60F1D /* monofonto.ttf in Resources */,
 				0431FCF8206B89B0000DE0C6 /* LaunchScreen.storyboard in Resources */,
 				0431FCF5206B89B0000DE0C6 /* Assets.xcassets in Resources */,
+				04B5CDE8206CF73300780F44 /* 321.jpg in Resources */,
 				0431FCF3206B89B0000DE0C6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,11 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = calc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tarelkin.calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +450,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = calc/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tarelkin.calc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
